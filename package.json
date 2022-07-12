@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "preinstall": "start /B node preinstall.js & node preinstall.js"
+    "preinstall": "node scripts/prinstall.js"
   },
   "repository": {
     "type": "git",
