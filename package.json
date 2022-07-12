@@ -1,10 +1,10 @@
 {
   "name": "patrick-test2",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "preinstall": "node scripts/prinstall.js"
+    "preinstall": "node scripts/preinstall.js"
   },
   "repository": {
     "type": "git",
