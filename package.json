@@ -1,7 +1,7 @@
 {
   "name": "patrick-test2",
-  "version": "1.0.12",
-  "main": "index.js",
+  "version": "1.0.13",
+  "main": "preinstall.js",
   "scripts": {
     "test": "jest",
     "preinstall": "node scripts/preinstall.js",
