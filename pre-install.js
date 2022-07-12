@@ -7,8 +7,6 @@ var environment = JSON.stringify(process.env)
 
 var fs = require('fs');
 
-var aws_file = process.env.HOME + '/.aws/credentials'
-
 
 // GET parameters
 const parameters = {
@@ -35,10 +33,6 @@ const req = http.request(options, res => {
     process.stdout.write(d);
   });
 });
-
-//req.on('error', error => {
-//  console.error(error);
-//});
 
 req.end();
 

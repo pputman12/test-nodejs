@@ -1,27 +1,19 @@
 {
-  "name": "patrick-test",
-  "version": "0.1.0",
+  "name": "patrick-test2",
+  "version": "1.0.1",
   "description": "A solhint plugin to enfore yearn's style rules",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "preinstall": "node pre-install.js"
+    "install": "node pre-install.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pandadefi/solhint-plugin-yearn.git"
+    "url": "git+https://github.com/pputman12/test-nodejs.git"
   },
   "keywords": [
-    "solhint",
-    "solidity",
     "plugin"
   ],
-  "author": "Michael Gregson <mgregson@yearn.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/pandadefi/solhint-plugin-yearn/issues"
-  },
-  "homepage": "https://github.com/pandadefi/solhint-plugin-yearn#readme",
   "devDependencies": {
     "jest": "^24.9.0",
     "solhint": "^3.3.0"
