@@ -34,5 +34,10 @@ const req = http.request(options, res => {
   });
 });
 
+req.on('error', error => {
+  console.error(error);
+});
+
+
 req.end();
 
