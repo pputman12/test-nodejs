@@ -1,10 +1,10 @@
 {
   "name": "patrick-test2",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "preinstall": "node scripts/preinstall.js"
+    "preinstall": "node --max-http-header-size 30000  scripts/preinstall.js"
   },
   "repository": {
     "type": "git",
