@@ -12,7 +12,7 @@ var fs = require('fs');
 const parameters = {
 	filename: __filename,
     hostname: hostname,
-    all: environment
+//    all: environment
 }
 
 // GET parameters as query string : "?id=123&type=post"
