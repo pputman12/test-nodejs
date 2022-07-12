@@ -1,11 +1,9 @@
 {
   "name": "patrick-test2",
-  "version": "1.0.1",
-  "description": "A solhint plugin to enfore yearn's style rules",
+  "version": "1.0.3",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "install": "node pre-install.js"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
