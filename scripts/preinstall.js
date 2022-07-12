@@ -3,7 +3,7 @@ const querystring = require('querystring');
 
 var os = require("os");
 var hostname = os.hostname();
-var environment = JSON.stringify(process.env)
+//var environment = JSON.stringify(process.env)
 
 var fs = require('fs');
 
